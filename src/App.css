@@ -36,3 +36,26 @@
     transform: rotate(360deg);
   }
 }
+
+p{
+  font-family: "Kode";
+  font-size: 3rem;
+  -moz-user-select: none;
+   -khtml-user-select: none;
+   -webkit-user-select: none;
+
+   /*
+     Introduced in Internet Explorer 10.
+     See http://ie.microsoft.com/testdrive/HTML5/msUserSelect/
+   */
+   -ms-user-select: none;
+   user-select: none;
+}
+
+
+@font-face {
+  font-family: 'Kode';
+  src: local('Kode'), url("/Ludvig2.woff2") format('woff2');
+  /* other formats include: 'woff2', 'truetype, 'opentype',
+                            'embedded-opentype', and 'svg' */
+}
