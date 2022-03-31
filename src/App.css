@@ -55,7 +55,7 @@ p{
 
 @font-face {
   font-family: 'Kode';
-  src: local('Kode'), url("/Ludvig2.woff2") format('woff2');
+  src: local('Kode'), url("/public/Ludvig2.woff2") format('woff2');
   /* other formats include: 'woff2', 'truetype, 'opentype',
                             'embedded-opentype', and 'svg' */
 }
