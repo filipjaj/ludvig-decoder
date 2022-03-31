@@ -61,9 +61,12 @@ div{
 word-break: break-word;
   margin: auto;
   margin-top: 10%;
+  align-self:center;
  
   
-  
+  margin-top: 20%;
+  margin-left: 50%;
+  transform: translate(-50%);
   
 }
 
