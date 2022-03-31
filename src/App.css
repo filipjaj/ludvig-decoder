@@ -43,6 +43,8 @@ p{
   -moz-user-select: none;
    -khtml-user-select: none;
    -webkit-user-select: none;
+   overflow-wrap: break-word;
+   
 
    /*
      Introduced in Internet Explorer 10.
@@ -50,16 +52,17 @@ p{
    */
    -ms-user-select: none;
    user-select: none;
+  
+ 
 }
 
 div{
-  display: flex;
-  justify-content: center;
-  align-items: center;
-  flex-direction: column;
-  align-content: center;
+  display: inline-block;
+word-break: break-word;
   margin: auto;
   margin-top: 10%;
+ 
+  
   
   
 }
